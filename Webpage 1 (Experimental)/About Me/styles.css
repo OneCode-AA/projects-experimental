@@ -1,0 +1,125 @@
+body {
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    transition: all 1s;
+    color:#424242;
+    user-select: none;
+    height: 100%;
+  } 
+  #profile-nav {
+    color: black;
+  }
+  .logo {
+    color: black;
+    display: inline-block;
+    font-size: 2rem;
+  }
+  .logo:hover {
+    cursor: default;
+  }
+  .menu {
+    display: inline;
+  
+  }
+  .nav-links {
+    color: black;
+    display: inline-block;
+    width: 45%;
+    margin: 1px;
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+  }
+  li {
+    display: inline;
+  }
+  
+  .main {
+    font: 48px;
+    font-size: 3rem;
+    text-align: center;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+  }
+  a:hover {
+    color: crimson;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(145, 48, 48);
+  }
+  nav,
+  .nav-links {
+    display: flex;
+  }
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+  }
+  @keyframes typingEffect {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+   
+  #typing-effect {   
+    animation: typingEffect .5s infinite alternate;
+    color: black;
+    font-weight: bolder;
+  }
+  .container-box{
+    -webkit-box-shadow: 6px 6px 22px -1px rgba(128, 128, 128, 0.81);
+    -moz-box-shadow: 6px 6px 22px -1px rgba(128, 128, 128, 0.81);
+    box-shadow: 6px 6px 22px -1px rgba(128, 128, 128, 0.81);
+    background: #ffffffc7;
+    transition: all 1s;
+    padding: 1px;  
+    text-align: center;
+    position: relative center;
+    margin: 1px;
+  }
+  
+  .status{
+    font-size: xx-large;
+    box-shadow: 3px 3px 6px -1px rgb(148 148 148 / 50%);
+    background: white;
+    width: fit-content;
+    margin: auto;
+    font-size: 40px !important;
+  }
+  .message{
+    font-size: 18px !important;
+    
+    font-size: large;
+    text-align: center;
+    width: fit-content;
+    margin: 7px auto;
+    box-shadow: 3px 3px 6px -1px rgb(148 148 148 / 50%);
+    background: white;
+    padding: 2px 2px;
+  }
+   
+  img {
+    width: 70px;
+    height: 70px;
+  }
+  .container-section {  
+    height: 100%;
+    width: 100%; 
+  }
+  .container-box::after {
+    /* Set content to be an attribute on the element */
+    position: relative;
+    left: 50%;
+    top: 15px;
+    color: gray;
+  }
+  #main {
+    margin-top: 50px;
+  }
+  
+  #footer {
+    text-align: center;
+  }
+  
