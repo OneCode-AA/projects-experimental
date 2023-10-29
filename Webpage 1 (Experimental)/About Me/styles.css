@@ -78,6 +78,7 @@ body {
     text-align: center;
     position: relative center;
     margin: 1px;
+    padding-bottom: 100px;
   }
   
   .status{
@@ -88,7 +89,7 @@ body {
     margin: auto;
     font-size: 40px !important;
   }
-  .message{
+  /* .message{
     font-size: 18px !important;
     
     font-size: large;
@@ -98,7 +99,7 @@ body {
     box-shadow: 3px 3px 6px -1px rgb(148 148 148 / 50%);
     background: white;
     padding: 2px 2px;
-  }
+  } */
    
   img {
     width: 70px;
@@ -120,6 +121,8 @@ body {
   }
   
   #footer {
+    margin-top: 20px;
     text-align: center;
   }
+
   
